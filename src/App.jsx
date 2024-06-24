@@ -14,7 +14,7 @@ function App() {
     setPlace(input)
     setInput('')
   }
-
+console.log("place",place)
   return (
     <div className='w-full h-screen text-white px-8'>
       <nav className='w-full p-3 flex justify-between items-center'>
